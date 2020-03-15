@@ -8,78 +8,15 @@ Group members:
 - Vincent Ferrard
 - Arthur Walsh
 
-Repo branches based on git flow
 
-```
-master
-|
-|\    develop
-| o<--|--------- hotfix 
-|/    |
-|     |
-|\   /|
-|  o<-|--------- release
-|  |  |
-|   \ |
-|     |
-|     | \
-|     |  o<----- feature
-|     | /
-|     |
-|   /
-| /
-o {initial commit}
-|
-```
+Compilation:
 
-# Base Classes
+First : Dowload or clone the project
 
-```
-| Global
-|
-| LibManag
-| EventListener
-| Game
-| Menu
-|
+Second : Compile the project with a "cmake ."
 
-        | Menu
-        |
-        | draw()
-        | EventListener
-        |
+Third : Execute with "./bomberman"
 
-        | LibManag
-        |
-        | device
-        | scene manager
-        | driver
-        | gui
-        |
-        | updateDisplay()
-        |
-
-        | EventListener : IEventReceiver
-        |
-        | onEvent()
-        | context
-        |
-
-        | Game
-        |
-        | map
-        | player(s)
-        | sounds
-        | Menu
-        | run()
-        |
-
-        | Player
-        |
-        | pos
-        | action
-        |
-```
 
 Repo organisation
 ```
